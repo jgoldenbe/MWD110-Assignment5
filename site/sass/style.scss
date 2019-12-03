@@ -5,6 +5,31 @@ body {
    overflow: hidden;
 }
 
+h1 {
+   font-family: $font-family-heading;
+   font-size: $font-size-h1;
+   color: $font-color;
+}
+
+#title {
+   position: absolute;
+   margin: auto;
+   top: 50%;
+   left: 50%;
+   transform: translate(-50%, -50%);
+   background-color: #0000003d;
+   box-shadow: 0 0 20px black;
+   padding: 20px;
+}
+
+#title > p {
+   padding-top: 30px;
+   font-family: $font-family-heading;
+   font-size: $font-size-p;
+   color: $font-color;
+   text-align: center;
+}
+
 #hero {
    position: absolute;
    z-index: -1;
