@@ -51,6 +51,7 @@ h1 {
    color: $font-color;
    font-size: $font-size-p--sub;
 }
+
 .principleDiv:hover {
    cursor: pointer;
    box-shadow: 0 0 50px black;
@@ -78,14 +79,16 @@ h1 {
    z-index: 9999;
    padding: 20px;
    text-align: center;
+   flex-flow: wrap;
    flex-direction: row;
-   flex-wrap: wrap;
    display: none;
+
    img {
       background: rgba(0, 0, 0, 0.479);
       box-shadow: 0 0 50px black;
       width: 23%;
    }
+
    p {
       width: 75%;
       background: white;
@@ -106,6 +109,7 @@ h1 {
    border-radius: 4px;
    transition: 0.4s;
 }
+
 .close:hover {
    background: white;
    color: black;
